@@ -10,12 +10,6 @@ This project focuses on analyzing time-series market data and building a predict
 - **Cloud Deployment:** Hosted on Streamlit Community Cloud for global access.
 - **Data Visualization:** Real-time charts comparing current Close vs. Predicted Open prices.
 
-## Tech Stack
-- **Language:** Python 3.11
-- **Deep Learning:** TensorFlow / Keras
-- **Data Handling:** Pandas, NumPy, yfinance
-- **Web App:** Streamlit
-
 ## 🖥️ How to Use the Web App
 
 Once the application is running (locally or via the Live Demo link), follow these simple steps to generate a stock price prediction:
@@ -27,4 +21,16 @@ Once the application is running (locally or via the Live Demo link), follow thes
     *   **Market Data Table:** Review the most recent 5 days of data (Open, High, Low, Close, and Volume) with professional numerical formatting[cite: 2].
     *   **Closing Price Chart:** Observe the historical trend through an interactive line chart[cite: 2].
     *   **AI Prediction:** View the forecasted next-day open price in the **Neural Network Prediction** section, featuring a color-coded metric card and a comparative bar chart visualizing the price gap[cite: 2].
+
+## Project Structure
+- `app.py`: Main Streamlit application code for the SaaS interface[cite: 2].
+- `240134-project-notebook.ipynb`: Jupyter notebook containing data analysis, model training, and evaluation[cite: 3].
+- `requirements.txt`: List of dependencies for environment setup and cloud deployment[cite: 2].
+- `240134-project-report.pdf`: Detailed technical report (2,500+ words)[cite: 2].
+
+## Tech Stack
+- **Language:** Python 3.11
+- **Deep Learning:** TensorFlow / Keras
+- **Data Handling:** Pandas, NumPy, yfinance
+- **Web App:** Streamlit
 
