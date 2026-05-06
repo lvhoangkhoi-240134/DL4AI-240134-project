@@ -16,17 +16,15 @@ This project focuses on analyzing time-series market data and building a predict
 - **Data Handling:** Pandas, NumPy, yfinance
 - **Web App:** Streamlit
 
-## Setup and Running Instructions
+## 🖥️ How to Use the Web App
 
-### 1. Clone the repository
+Once the application is running (locally or via the Live Demo link), follow these simple steps to generate a stock price prediction:
 
-git clone [https://github.com/lvhoangkhoi-240134/DL4AI-240134-project.git](https://github.com/lvhoangkhoi-240134/DL4AI-240134-project.git)
-cd DL4AI-240134-project
+1.  **Enter a Stock Ticker:** In the text input box, type the official symbol of the company you want to analyze (e.g., `AAPL` for Apple, `TSLA` for Tesla, or `NVDA` for NVIDIA).
+2.  **Select Historical Window:** Use the interactive slider to choose the number of past trading days (from 30 to 365 days) that the 1D CNN model should consider for its analysis.
+3.  **Fetch & Predict:** Click the **"Fetch Data & Predict"** button. The app will pull live market data using the `yfinance` API.
+4.  **Analyze the Results:**
+    *   **Market Data Table:** Review the most recent 5 days of data (Open, High, Low, Close, and Volume) with professional numerical formatting[cite: 2].
+    *   **Closing Price Chart:** Observe the historical trend through an interactive line chart[cite: 2].
+    *   **AI Prediction:** View the forecasted next-day open price in the **Neural Network Prediction** section, featuring a color-coded metric card and a comparative bar chart visualizing the price gap[cite: 2].
 
-### 2. Create and Activate Virtual Environment
-
-python -m venv .venv
-# Windows
-.\.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
