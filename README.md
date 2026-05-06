@@ -1,4 +1,5 @@
 # DL4AI-240134-Project: Stock Price Prediction using 1D CNN
+🚀 **Live Demo:** [https://dl4ai-240134-project.streamlit.app/]
 
 ## Project Overview
 This project focuses on analyzing time-series market data and building a predictive model using **1-Dimensional Convolutional Neural Networks (1D CNN)**. It covers the entire pipeline from data preprocessing to deploying a web-based SaaS application.
@@ -18,12 +19,14 @@ This project focuses on analyzing time-series market data and building a predict
 ## Setup and Running Instructions
 
 ### 1. Clone the repository
-```bash
+
 git clone [https://github.com/lvhoangkhoi-240134/DL4AI-240134-project.git](https://github.com/lvhoangkhoi-240134/DL4AI-240134-project.git)
 cd DL4AI-240134-project
 
-## Project Structure
-- `app.py`: The main Streamlit web application script.
-- `240134-project-notebook.ipynb`: Jupyter Notebook containing model training and evaluation.
-- `requirements.txt`: List of dependencies for cloud deployment.
-- `240134-project-report.pdf`: The detailed 2,500+ word technical report.
+### 2. Create and Activate Virtual Environment
+
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
